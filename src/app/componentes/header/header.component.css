@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.busca {
+    position: relative;
+    display: flex; 
+    align-items: center; 
+    margin: 0 auto; 
+    border-radius: 15px;
+    width: 500px;
+}
+
+.busca input[type="text"] {
+    padding: 8px 30px 8px 8px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 100%; 
+    background-color: #ccc; 
+}
+
+.busca input[type="text"]::placeholder {
+    font-weight: 600;
+}
+
+.busca input[type="text"]:focus {
+    border-color: #f2b035;
+}
+
+
+.material-icons {
+    font-size: 24px; 
+    color: #555; 
+    position: absolute;
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.lupa-icon {
+    color: #f2b035;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nome p {
+    margin-right: 10px; 
+    font-weight: 800;
+    margin-right: 50px;
+}
+
+
+.nome .material-icons {
+    font-size: 32px; 
+    color: #555; 
+}

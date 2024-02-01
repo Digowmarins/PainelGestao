@@ -1,0 +1,74 @@
+<app-header></app-header>
+<div class="body">
+    <div class="menu-lateral">
+        <ul>
+            <li>
+                <a href="#" onclick="toggleActive(this)">
+                    <i class="material-icons">home</i>
+                    <span>Painel de Gestão</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="toggleActive(this)">
+                    <i class="material-icons">shopping_cart</i>
+                    <span>Vendas Detalhado</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="toggleActive(this)">
+                    <i class="material-icons">wallet</i>
+                    <span>Financeiro</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="painel-gestao">
+        <div class="painel">
+            <h2>Painel de Gestão</h2>
+            <div class="buttons">
+                <button class="btn-novo add-person"><i class="material-icons">person_add</i> Novo Aluno</button>
+                <button class="btn-novo"><i class="material-icons">add_shopping_cart</i> Nova Venda</button>
+            </div>
+        </div>
+        <h1>Seus Dados</h1>
+        <div class="dados">
+            <p><i class="material-icons">people</i> Clientes Totais: <span>100</span></p>
+            <p><i class="material-icons">monetization_on</i> Caixa Total: <span>$10,000</span></p>
+            <p><i class="material-icons">shopping_cart</i> Novas Venda: <span>$500</span></p>
+            <p><i class="material-icons">error</i> Pendências: <span>5</span></p>
+        </div>        
+        <div class="tabela-container">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Processo <i class="material-icons">keyboard_arrow_down</i></th>
+                        <th>Valor</th>
+                        <th>Status</th>
+                        <th>N°</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Farnese de Vandimion <br> email@gmail.com <br> 12345678</td>
+                        <td>Aula prática A</td>
+                        <td>R$ 1550,00</td>                 
+                        <td><span class="status-negado">Negado</span></td>
+                        <td>001</td>
+                        <td class="editar">Editar</td>
+                    </tr>
+                    <tr>
+                        <td>Roderick de Schtauffen <br> email@gmail.com <br> 12345678</td>
+                        <td>Aula prática B</td>
+                        <td>R$ 1250,00</td>
+                        <td><span class="status-concluido">Concluído</span></td>
+                        <td>002</td>
+                        <td class="editar">Editar</td>
+                    </tr>           
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
